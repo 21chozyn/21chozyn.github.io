@@ -4687,3 +4687,34 @@ input, select, textarea {
 		}
 
 	}
+	.skill{
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	header h2{
+		text-align: center;
+	}
+	header p{
+		text-align: center;
+	}
+	.skills{
+		position: relative;
+		width: 450px;
+		margin: 70px auto;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+	.skills li{
+		display: flex;
+		padding: 10px 20px;
+		background-color: cornsilk;
+		color: #000000;
+		margin: 5px 0;
+		transition: .5s;
+		border-radius: 10px 10px 0 0;
+	}
+	.skills li:hover{
+		transform: scale(1.06);
+	}
